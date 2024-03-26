@@ -7,7 +7,7 @@ metadata:
     name: myapp
 spec:
   rules:
-    - host: job-exam-CD.com
+    - host: job-exam-cd.com
       http:
         paths:
           - path: /
