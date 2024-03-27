@@ -1,8 +1,0 @@
----
-apiVersion: image.toolkit.fluxcd.io/v1beta2
-kind: ImagePolicy
-metadata:
-  name: new-image
-  namespace: test-cd
-status:
-  latestImage: docker.io/dhairya442/docker-exe:master-c0a041e-1711435796

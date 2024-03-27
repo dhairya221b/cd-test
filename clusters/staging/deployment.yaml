@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: myapp 
-        image: dhairya442/job-exam-management-system-web:latest
+        image: dhairya442/job-exam-management-system-web:latest # {"$imagepolicy": "test-cd:myapp"}
         resources:
           limits:
             memory: "2Gi"
